@@ -1,0 +1,46 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+    <view class="banner">
+        展示活动banner
+    </view>
+    <view class="pro_info">
+
+    </view>
+    <view class="more">
+        了解更多产品
+    </view>
+    <view class="line">
+
+    </view>
+  
+    <view class="co">
+        <view class="co_title">
+            荣誉资质
+        </view>
+        <view class="co_swiper">
+            <swiper indicator-dots="{{false}}" autoplay="true" interval="3000" duration="200" 	display-multiple-items="3" >
+                <block wx:for="{{background}}" wx:key="*this">
+                    <swiper-item>
+                        <view class="swiper-item {{item}}">
+                        </view>
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+    </view>
+    <view class="co">
+        <view class="co_title">
+            合作单位
+        </view>
+        <view class="co_swiper">
+            <swiper indicator-dots="{{false}}"  autoplay="true" interval="3000" duration="200" 	display-multiple-items="3">
+                <block wx:for="{{background}}" wx:key="*this">
+                    <swiper-item>
+                        <view class="swiper-item {{item}}">
+                        </view>
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,70 @@
+/* pages/center/center.wxss */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar{
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.bar_item{
+    text-align: center;
+}
+.title1{
+    font-size: 9px;
+    color: rgb(224, 224, 224);
+}
+.line{
+    height: 60%;
+    width: 1px;
+    background-color: rgb(173, 171, 171);
+}
+.bar_select,.bar_select>.title1{
+    color: brown;
+}
+.info{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.pro{
+    width: calc(45vw - 1vh);
+    height: 28vh;
+    border-radius: 5px;
+    background-color: rgb(173, 171, 171);
+    overflow: hidden;
+    margin-bottom: 2vh;
+    border: 1px solid rgb(173, 171, 171);
+}
+.pro>.main{
+    height: 21vh;
+    width: 100%;
+    /* background-color: rgb(224, 224, 224); */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pro>.main>image{
+    width: 50%;
+    height: 100%;
+}
+.noData{
+    text-align: center;
+    color: brown;
+    width: 90vw;
+}
+

@@ -1,0 +1,4 @@
+<!--pages/Vr/vr.wxml-->
+<view id="panorama">
+    <web-view src="http://www.feisiplus.com:8080/VRtest/vr.html" />
+</view>

@@ -1,0 +1,53 @@
+<!--pages/center/center.wxml-->
+<view class="center">
+    <view class="bar">
+        <view class="bar_item  {{bar_index==0?'bar_select':''}}" bindtap="setBatIndex" data-index="0">
+            <view class="title1">
+                习其文
+            </view>
+            <view class="title2">
+                习其文
+            </view>
+        </view>
+        <view class="line">
+        </view>
+        <view class="bar_item {{bar_index==1?'bar_select':''}}" bindtap="setBatIndex" data-index="1">
+            <view class="title1">
+                明其德
+            </view>
+            <view class="title2">
+                明其德
+            </view>
+        </view>
+        <view class="line">
+        </view>
+        <view class="bar_item {{bar_index==2?'bar_select':''}}" bindtap="setBatIndex" data-index="2"> 
+            <view class="title1">
+                甘其食
+            </view>
+            <view class="title2">
+                甘其食
+            </view>
+        </view>
+        <view class="line">
+        </view>
+        <view class="bar_item {{bar_index==3?'bar_select':''}}" bindtap="setBatIndex" data-index="3">
+            <view class="title1">
+                怡其居
+            </view>
+            <view class="title2">
+                怡其居
+            </view>
+        </view>
+    </view>
+    <view class="info">
+        <view class="pro" wx:for="{{proList}}" wx:key="index" wx:if="{{proList.length>0}}">
+            <view class="main">
+                <image src="{{item.img}}" mode=""/>
+            </view>
+        </view>
+        <view wx:if="{{proList.length==0}}" class="noData">
+            暂无数据
+        </view>
+    </view>
+</view>

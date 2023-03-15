@@ -1,0 +1,76 @@
+/* pages/home/home.wxss */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 90%;
+    height: 20vh;
+    background-color: rgb(224, 224, 224);
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.pro_info {
+    width: 90%;
+    height: 30vh;
+    background-color: rgb(224, 224, 224);
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.more {
+    width: 35%;
+    height: 5vh;
+    margin-top: 3vh;
+    background-color: rgb(224, 224, 224);
+    border-radius: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: rgb(224, 224, 224);
+    margin-top: 5vh;
+}
+.co{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.co_title{
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+.co_swiper{
+    width: 90vw;
+    height: 10vh;
+}
+.swiper-item{
+    width: 28vw;
+    height: 10vh;
+}
+.demo-text-1{
+
+    background-color: blanchedalmond;
+}
+.demo-text-2{
+    background-color: rgb(146, 104, 41);
+}
+.demo-text-3{
+    background-color: rgb(65, 63, 61);
+}

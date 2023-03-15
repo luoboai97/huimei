@@ -1,0 +1,45 @@
+/* pages/my/my.wxss */
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #aaa;
+  }
+  .userinfo-avatar {
+    overflow: hidden;
+    width: 150rpx;
+    height: 150rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+  }
+  .menu_block{
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    margin-top: 5vh;
+  }
+  .menu_item{
+      width: 90vw;
+      height: fit-content;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: black;
+  }
+ 
+  .menu_container{
+      height: 7.5vh;
+      width: 90%;
+      font-size: 12px;
+      border-bottom: 1px solid rgb(209, 209, 209);
+      line-height: 7.5vh;
+      margin-left: 5%;
+
+  }
+  .menu_title{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.noneBorder{
+    border: none;
+}
